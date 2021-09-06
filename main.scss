@@ -1,0 +1,46 @@
+.floating-section {
+  block-size: 1000px;
+  background-color: #F3F3F5;
+  position: relative;
+
+  .floating {
+    inline-size: 100px;
+    block-size: 100px;
+    
+    img {
+      inline-size: inherit;
+      block-size: inherit;
+      border-radius: 50%;
+    }
+  }
+
+  .floating:nth-child(1) {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+  }
+
+  .floating:nth-child(2) {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+  }
+
+  .floating:nth-child(3) {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+
+  .floating:nth-child(4) {
+    position: absolute;
+    right: 250px;
+    top: 20px;
+  }
+
+  .floating:nth-child(5) {
+    position: absolute;
+    right: 350px;
+    top: 140px;
+  }
+}
